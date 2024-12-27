@@ -47,7 +47,7 @@ const HeadNav = ({ user, setUser }) => {
                 </Box>
             </Link>
 
-            <Stack gap="30px" flexDirection="row" alignItems="center">
+            <Stack className="headnavlinkspage" gap="30px" flexDirection="row" alignItems="center">
                 <Link className="nav_head" to="/about" style={{ cursor: "pointer", color: "black", textDecoration: "none" }}>
                     <Typography variant="h6">
                         About

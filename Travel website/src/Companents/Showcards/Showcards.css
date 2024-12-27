@@ -14,9 +14,7 @@
     transition: transform 0.3s; /* Smooth hover effect */
 }
 
-.hotels-card:hover {
-    transform: scale(1.05); /* Slightly enlarge on hover */
-}
+
 
 .card-content {
     position: absolute;
@@ -62,9 +60,12 @@
     align-items: center !important;
     gap: 15px !important;
   }
-  .card-content{
-left: 102px !important;
-  }
+  .card-content {
+    left: 31px !important;
+}
+.card-button{
+width: 150px !important;
+}
   .card-description{
     width: 250px !important;
   }
