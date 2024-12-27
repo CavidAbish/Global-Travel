@@ -23,6 +23,7 @@ const LandingPages = () => {
         <Box className="landing-banner" style={{ backgroundImage: `url(${landingone})` }}>
           <div className="App" >
             <img src={airplane} alt="Uçak" className="airplane" />
+            <div>E</div>
         </div>
           <Stack className="bacgroundtext" gap="10px" textAlign="center" flexDirection="column">
             <Typography className="landing-title" variant="h5">Helping Others</Typography>
